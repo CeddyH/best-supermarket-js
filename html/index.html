@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="/css/myStyles.css">
+    <head>
+        <title>
+            Hello World
+        </title>
+    </head>
+    <body>
+        <script async
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYJ_dVZVpq_zo3NOyzCL8HqN_xu2U1Ijc&callback=initMap">
+        </script>
+        <div id="map1">
+            <div id="map">
+            </div>
+            <span id = "span1"></span>
+            <span id = "span2"></span>
+            <span id = "span3"></span>
+        </div>
+        <br>
+        <form action="" id="form">
+            <label for="name">Address:</label>
+            <input type="text" id="inp" name="Address" required>
+            <input type="button" value="Begin Search" id="submit" onclick="foo()">
+        </form>
+        <div id="resultdiv">
+            <p id="answer"></p>
+        </div>
+    </body>
+    <script src="/javascript/main.js"></script>
+</html>
+    
